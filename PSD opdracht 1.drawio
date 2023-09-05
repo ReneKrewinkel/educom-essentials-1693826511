@@ -1,0 +1,98 @@
+<mxfile host="65bd71144e">
+    <diagram id="RrTy1l0htRWsXfRLPgHY" name="Page-1">
+        <mxGraphModel dx="1130" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Return persoon is bij deur" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="780" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Loop naar deur (persoon)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="100" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="sta op" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="210" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="draai lichaam 90 graden linksom" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="230" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="totdat arm muur of obstakel raakt" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="330" width="370" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="1 stap vooruit" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="380" width="330" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Steek arm vooruit" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="280" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="volg muur/obstakel linksom&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="500" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="totdat arm deur voelt" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="550" width="370" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="volg richting van obstakel/muur&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="660" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="1 stap vooruit" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="660" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="als arm muur/obstakel voelt" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="600" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="1 stap vooruit" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="720" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="16" target="16" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="270" y="629.5" as="sourcePoint"/>
+                        <mxPoint x="350" y="629.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="16" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="400" y="600" as="sourcePoint"/>
+                        <mxPoint x="560" y="660" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="true" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="630" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="false" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="630" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="persoon zit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="130" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="29">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="245" y="160" as="sourcePoint"/>
+                        <mxPoint x="345" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="24">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="510" y="150" as="sourcePoint"/>
+                        <mxPoint x="700" y="200" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="true" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="false" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="blijf staan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="180" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="schuif stoel 1m naar achteren" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="180" width="190" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
